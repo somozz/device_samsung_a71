@@ -16,6 +16,10 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
