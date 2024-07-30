@@ -20,6 +20,9 @@ TARGET_BOARD_NAME := SRPSF18B010
 # Kernel
 TARGET_KERNEL_CONFIG := a71_defconfig
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2024-02-01
 
