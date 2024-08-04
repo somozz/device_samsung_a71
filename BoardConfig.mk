@@ -21,6 +21,9 @@ TARGET_USES_FOD_ZPOS := true
 # Kernel
 TARGET_KERNEL_CONFIG := a71_defconfig
 
+# NFC
+TARGET_USES_NQ_NFC := true
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
