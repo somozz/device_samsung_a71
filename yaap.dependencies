@@ -2,5 +2,9 @@
   {
     "repository": "android_device_samsung_a71-common",
     "target_path": "device/samsung/a71-common"
+  },
+  {
+    "repository"  : "device_samsung_a71-kernel",
+    "target_path" : "device/samsung/a71-kernel"
   }
 ]
